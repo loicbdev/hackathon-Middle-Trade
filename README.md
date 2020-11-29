@@ -18,8 +18,10 @@ Team :
 
 Benoit : https://github.com/Benoit2109
 
-Nicolas : https://github.com/NicolasBonamy
-
 François : https://github.com/Francois2344
 
 Loïc : https://github.com/loicbdev
+
+Nicolas : https://github.com/NicolasBonamy
+
+
