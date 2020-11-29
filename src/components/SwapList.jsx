@@ -34,16 +34,16 @@ const SWAPLIST = styled.div`
     border-radius: 10px;
     margin: 0.5rem;
     width: 4rem;
-    outline:none;
-    border:none;
-    background-color:rgb(203, 57, 53);
-    color:white;
-    :focus{
-      color:rgb(203, 57, 53);
-      background-color:white;
-      border:1px;
-      border:solid;
-      border-color:rgb(203, 57, 53);
+    outline: none;
+    border: none;
+    background-color: rgb(203, 57, 53);
+    color: white;
+    :focus {
+      color: rgb(203, 57, 53);
+      background-color: white;
+      border: 1px;
+      border: solid;
+      border-color: rgb(203, 57, 53);
     }
   }
 `;
@@ -54,23 +54,21 @@ class SwapList extends React.Component {
     this.state = {
       swaps: [],
       status: "all",
-      
     };
     this.food = this.food.bind(this);
     this.clothes = this.clothes.bind(this);
     this.tools = this.tools.bind(this);
     this.livestock = this.livestock.bind(this);
     this.showAll = this.showAll.bind(this);
-
   }
   componentDidMount() {
     this.fetchSwaps();
   }
 
   fetchSwaps() {
-        this.setState({
-          swaps: JSON.parse(localStorage.getItem("stuff")),
-        });
+    this.setState({
+      swaps: JSON.parse(localStorage.getItem("stuff")),
+    });
   }
 
   food() {
@@ -103,27 +101,25 @@ class SwapList extends React.Component {
     });
   }
 
-  
-
   render() {
     const { swaps, status } = this.state;
-    const {addItem, removeItem, changeItemQty}=this.props;
+    const { addItem, removeItem, changeItemQty } = this.props;
     return (
       <SWAPLIST className="SwapList">
         <div className="category">
-          <button className='buttonList' type="button" onClick={this.food}>
+          <button className="buttonList" type="button" onClick={this.food}>
             Food
           </button>
-          <button className='buttonList' type="button" onClick={this.clothes}>
+          <button className="buttonList" type="button" onClick={this.clothes}>
             Clothes
           </button>
-          <button className='buttonList' type="button" onClick={this.tools}>
+          <button className="buttonList" type="button" onClick={this.tools}>
             Tools
           </button>
-          <button className='buttonList' type="button" onClick={this.livestock}>
+          <button className="buttonList" type="button" onClick={this.livestock}>
             Livestock
           </button>
-          <button className='buttonList' type="button" onClick={this.showAll}>
+          <button className="buttonList" type="button" onClick={this.showAll}>
             All
           </button>
         </div>
@@ -152,7 +148,13 @@ class SwapList extends React.Component {
               return (
                 <li key={event.id}>
                   <SwapItem
-                    {...event} totalList={this.state.totalList} increment={this.props.increment} decrement={this.props.decrement} addItem={addItem} removeItem={removeItem} changeItemQty={changeItemQty}
+                    {...event}
+                    totalList={this.state.totalList}
+                    increment={this.props.increment}
+                    decrement={this.props.decrement}
+                    addItem={addItem}
+                    removeItem={removeItem}
+                    changeItemQty={changeItemQty}
                   />
                 </li>
               );
