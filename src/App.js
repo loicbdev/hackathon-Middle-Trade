@@ -9,7 +9,6 @@ import Account from "./components/Account";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
-import { render } from "@testing-library/react";
 
 class App extends React.Component {
   constructor(props) {
