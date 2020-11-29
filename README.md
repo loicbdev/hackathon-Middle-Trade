@@ -1,6 +1,6 @@
-# thème : "Back To The Future" 
+# theme : "Back To The Future" 
 
-# 99 équipes / durée : 24h (19 et 20/11/2020)
+# 99 teams / duration : 24h (november 2020)
 
 Wilders have the power to travel back in time and bring all their technology with them. 
 
@@ -8,17 +8,17 @@ They can explore the period of their choice in order to create an application th
 
 
 
-# Middle-Trade (site de troc au moyen-âge)
+# Middle-Trade (barter site in the middle ages
 
 # https://middle-trade.netlify.app/
 
 
-# Team :
+Team :
 
-Benoit2109
+Benoit : https://github.com/Benoit2109
 
-https://github.com/NicolasBonamy
+Nicolas : https://github.com/NicolasBonamy
 
-https://github.com/Francois2344
+François : https://github.com/Francois2344
 
-https://github.com/loicbdev
+Loïc : https://github.com/loicbdev
