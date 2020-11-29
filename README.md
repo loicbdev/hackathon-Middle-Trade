@@ -11,3 +11,14 @@ They can explore the period of their choice in order to create an application th
 # Middle-Trade (site de troc au moyen-âge)
 
 # https://middle-trade.netlify.app/
+
+
+# Team :
+
+https://github.com/Benoit2109
+
+https://github.com/NicolasBonamy
+
+https://github.com/Francois2344
+
+https://github.com/loicbdev
