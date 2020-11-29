@@ -8,7 +8,8 @@ They can explore the period of their choice in order to create an application th
 
 
 
-# Middle-Trade (barter site in the middle ages
+# Middle-Trade 
+(barter site in the middle ages)
 
 # https://middle-trade.netlify.app/
 
