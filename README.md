@@ -16,7 +16,7 @@ They can explore the period of their choice in order to create an application th
 
 Team :
 
-Benoit : href="https://github.com/Benoit2109"
+Benoit : https://github.com/Benoit2109
 
 Nicolas : https://github.com/NicolasBonamy
 
