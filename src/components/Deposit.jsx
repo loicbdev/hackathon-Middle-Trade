@@ -86,7 +86,7 @@ const values = [
 ]
 
 function Deposit() {
-  const [stuff, setStuff] = React.useState(
+  const [stuff] = React.useState(
     JSON.parse(localStorage.getItem("stuff"))
   );
   const [form, setForm] = React.useState({

@@ -164,7 +164,7 @@ class SwapItem extends Component {
       removeItem,
       changeItemQty,
     } = this.props;
-    const { totalItem, totalItemValue } = this.state;
+    const { totalItem } = this.state;
     return (
       <div>
         <DIV>

@@ -132,7 +132,7 @@ class Footer extends Component {
   }
   
   render() {
-    const { totalList, totalListValue, cartItems,} = this.props;
+    const { totalList, cartItems,} = this.props;
     const { hidden } = this.state;
     
     return (
