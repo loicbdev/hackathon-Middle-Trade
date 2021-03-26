@@ -34,7 +34,7 @@ class App extends React.Component {
   getApi() {
     axios
       .get(
-        "https://raw.githubusercontent.com/Francois2344/hackathon1/main/swap/db.json"
+        "https://raw.githubusercontent.com/loicbdev/hackathon-Middle-Trade/master/src/db.json"
       )
       .then((response) => {
         localStorage.setItem("stuff", JSON.stringify(response.data));
