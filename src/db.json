@@ -99,7 +99,7 @@
       "id" : "13",
       "category" : "food",
       "name": "POTATOES",
-      "image": "https://cdn.pixabay.com/photo/2019/03/01/16/07/pigs-4028140_960_720.jpg", 
+      "image": "https://cdn.pixabay.com/photo/2014/08/06/20/32/potatoes-411975_960_720.jpg", 
       "location": "Montbazillac",
       "value": "2",
       "quantity": "157"
@@ -110,6 +110,6 @@
       "image": "https://cdn.pixabay.com/photo/2019/03/01/16/07/pigs-4028140_960_720.jpg", 
       "location": "Beaujolais",
       "value": "16",
-      "quantity": "1"
+      "quantity": "3"
     } 
     ]
